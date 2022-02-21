@@ -39,8 +39,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
 
-
-//         navController.navigate(R.id.boardFragment);
+         navController.navigate(R.id.boardFragment);
 
 
           navController.addOnDestinationChangedListener(new NavController.OnDestinationChangedListener() {
